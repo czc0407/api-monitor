@@ -1,0 +1,35 @@
+{
+  "deepseek": {
+    "api_key": "YOUR_DEEPSEEK_API_KEY",
+    "base_url": "https://api.deepseek.com",
+    "balance_path": "/user/balance"
+  },
+  "openkey": {
+    "bearer_token": "YOUR_OPENKEY_BEARER_TOKEN",
+    "base_url": "https://openkey.cloud",
+    "account_balance_path": "/v2/account/balance",
+    "token_balance_path": "/v2/token/balance"
+  },
+  "pricing": {
+    "price_per_1M_tokens_cny": 2.5,
+    "comment_cny": "Blended average of deepseek-v4-pro (¥3/M in, ¥6/M out) and deepseek-v4-flash (¥1/M in, ¥2/M out)",
+    "price_per_1M_tokens_usd": 0.5,
+    "comment_usd": "Default blended price for OpenKey (adjust per your actual model choice)"
+  },
+  "refresh_interval_seconds": 30,
+  "ui": {
+    "width": 330,
+    "bg_color": "#1c1c1e",
+    "titlebar_color": "#2c2c2e",
+    "fg_color": "#f5f5f7",
+    "secondary_color": "#98989d",
+    "accent_color": "#0a84ff",
+    "error_color": "#ff453a",
+    "success_color": "#30d158",
+    "separator_color": "#38383a",
+    "hover_bg": "#3a3a3c",
+    "font_family": "SF Mono, Menlo, Monaco",
+    "font_size": 11,
+    "title_font_size": 12
+  }
+}
